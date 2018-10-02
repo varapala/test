@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcfb"
+    android:gravity="center"
+    tools:context="com.user.login_register.SplashActivity">
+
+    <ImageView
+        android:layout_width="185dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bgl4"
+        android:id="@+id/imgsplash"/>
+
+    <TextView
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="Budget Saver"
+    android:textColor="@color/tomato"
+    android:textSize="40sp"
+    android:textStyle="bold" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fcfcfb"
+    tools:context="com.user.login_register.Fragment2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp">
+
+        <EditText
+            android:id="@+id/act_main_ed1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="FirstName"
+            android:layout_marginLeft="25dp"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawableTint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp">
+
+        <EditText
+            android:id="@+id/act_main_ed2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="LastName"
+            android:layout_marginLeft="25dp"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:drawableTint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp">
+
+        <EditText
+            android:id="@+id/act_main_ed3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginLeft="25dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableTint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#161616">
+
+        <EditText
+            android:id="@+id/act_main_ed4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableTint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic"
+             />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp">
+
+        <EditText
+            android:id="@+id/act_main_ed5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:hint="Phone.no"
+            android:drawableStart="@drawable/ic_local_phone_black_24dp"
+            android:drawableTint="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic"
+             />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="365dp">
+
+            <EditText
+                android:id="@+id/act_main_ed6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="DOB"
+                android:layout_marginLeft="25dp"
+                android:drawableStart="@drawable/ic_perm_contact_calendar_black_24dp"
+                android:drawableTint="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <CheckBox
+        android:id="@+id/chkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="427dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/orangehex"
+        android:text="Terms and Conditions"></CheckBox>
+
+
+    <Button
+        android:id="@+id/btn_fragment2"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="463dp"
+        android:text="sign up"
+        android:textStyle="italic"
+        android:background="@drawable/but1"/>
+
+
+</RelativeLayout>
+    </ScrollView>
+</FrameLayout>

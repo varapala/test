@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FFa500</color>
+    <color name="colorAccent">#ff3b7d</color>
+    <color name="gray">#93353434</color>
+    <color name="white">#932f3030</color>>
+    <color name="tabIndicator">#93ace1e1</color>>
+    <color name="tabSelected">#931bc3ed</color>>
+    <color name="tabUnselected">#93def5fa</color>>
+    <color name="tomato">#FF6347</color>>
+    <color name="orangered">#FFa500</color>>
+    <color name="gold">#FFD700</color>>
+    <color name="orange">#ffa500</color>>
+    <color name="orangehex">#FF8C00</color>>
+
+</resources>
